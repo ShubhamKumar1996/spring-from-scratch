@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.example.springcoreproject2.Employee" name="employee1">
+        <property name="employeeId" value="1"/>
+        <property name="phones">
+            <list>
+                <value>"phone1"</value>
+                <value>"phone2"</value>
+                <value>"phone3"</value>
+            </list>
+        </property>
+        <property name="address">
+            <set>
+                <value>"address1"</value>
+                <value>"address2"</value>
+                <value>"address3"</value>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key="employee1" value="course1"/>
+                <entry key="employee2" value="course2"/>
+                <entry key="employee3" value="course3"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>
