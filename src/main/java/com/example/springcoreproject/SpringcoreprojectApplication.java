@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
 public class SpringcoreprojectApplication {
-
+	/* Dependency Injection with primitive data types */
 	public static void main(String[] args) {
 //		SpringApplication.run(SpringcoreprojectApplication.class, args);
 		System.out.println( "Hello World!" );
