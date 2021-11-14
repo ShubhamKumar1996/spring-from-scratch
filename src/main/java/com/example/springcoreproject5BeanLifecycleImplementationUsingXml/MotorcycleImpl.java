@@ -1,4 +1,4 @@
-package com.example.springcoreproject5BeanLifecycleImplementation;
+package com.example.springcoreproject5BeanLifecycleImplementationUsingXml;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

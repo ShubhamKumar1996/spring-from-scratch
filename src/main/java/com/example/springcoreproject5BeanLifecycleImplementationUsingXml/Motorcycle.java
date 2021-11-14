@@ -1,4 +1,4 @@
-package com.example.springcoreproject5BeanLifecycleImplementation;
+package com.example.springcoreproject5BeanLifecycleImplementationUsingXml;
 
 public class Motorcycle {
     private double price;
