@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="com.example.springcoreproject8AutowiringUsingXml.Address" name="address">
+    <bean class="com.example.springcoreproject1_8AutowiringUsingXml.Address" name="address">
         <property name="village" value="Judda ka johar"/>
         <property name="state" value="Himachal Pradesh"/>
         <property name="pincode" value="173001"/>
@@ -17,6 +17,6 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- <bean class="com.springCoreExample8AutowiringUsingXml.Person" name="person2" autowire="byType"/> -->
 
     <!-- Autowiring by Constructor -->
-    <bean class="com.example.springcoreproject8AutowiringUsingXml.Person" name="person3" autowire="constructor"/>
+    <bean class="com.example.springcoreproject1_8AutowiringUsingXml.Person" name="person3" autowire="constructor"/>
 
 </beans>

@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="com.example.springcoreproject2.Employee" name="employee1">
+    <bean class="com.example.springcoreproject1_2.Employee" name="employee1">
         <property name="employeeId" value="1"/>
         <property name="phones">
             <list>

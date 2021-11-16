@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="com.example.springcoreproject.Student" name="student1">
+    <bean class="com.example.springcoreproject1_1.Student" name="student1">
         <property name="studentId">
             <value>1</value>
         </property>
@@ -15,14 +15,14 @@
             <value>nahan</value>
         </property>
     </bean>
-    <bean class="com.example.springcoreproject.Student" name="student2">
+    <bean class="com.example.springcoreproject1_1.Student" name="student2">
         <property name="studentId" value="2"/>
         <property name="studentName" value="Shubham2"/>
         <property name="studentAddress" value="Nahan2"/>
     </bean>
 
     <!-- Beans for Employee class -->
-    <bean class="com.example.springcoreproject.Employee" name="employee1">
+    <bean class="com.example.springcoreproject1_1.Employee" name="employee1">
         <property name="employeeId" value="1"/>
         <property name="coworkers">
             <list>
