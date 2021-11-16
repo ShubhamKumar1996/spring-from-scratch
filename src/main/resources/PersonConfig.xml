@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.example.springcoreproject8AutowiringUsingXml.Address" name="address">
+        <property name="village" value="Judda ka johar"/>
+        <property name="state" value="Himachal Pradesh"/>
+        <property name="pincode" value="173001"/>
+    </bean>
+
+    <!-- Autowiring by Name -->
+    <!-- <bean class="com.springCoreExample8AutowiringUsingXml.Person" name="person1" autowire="byName"/>  -->
+
+    <!-- Autowiring by Type -->
+    <!-- <bean class="com.springCoreExample8AutowiringUsingXml.Person" name="person2" autowire="byType"/> -->
+
+    <!-- Autowiring by Constructor -->
+    <bean class="com.example.springcoreproject8AutowiringUsingXml.Person" name="person3" autowire="constructor"/>
+
+</beans>
